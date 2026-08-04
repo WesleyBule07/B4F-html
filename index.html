@@ -17,7 +17,16 @@
         <div
           style="background-image: url(&quot;imgs/hero-background.svg&quot;)">
           <div>
-            <img src="imgs/avatar.png" alt="Profile Picture" />
+            <img src="imgs/avatar.png" 
+            srcset="imgs/avatar/avatar-180.png 180w,
+                    imgs/avatar/avatar-360.png 360w,
+                    imgs/avatar/avatar-720.png 720w,
+            "
+            sizes="(max-width: 480px) 80px,
+                    (max-width: 768px) 120px,
+                    180px
+            "
+            alt="Profile Picture" />
           </div>
 
           <div>
@@ -107,7 +116,6 @@
         </p>
       </div>
     </section>
-
     <section>
       <h2>Contact Me</h2>
 
