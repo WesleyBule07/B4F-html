@@ -1,0 +1,82 @@
+:root{
+
+    --background-default: #10131C;
+    --img-background: url('../imgs/hero-background.svg');
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-bar {
+
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.70rem;
+    background-color: var(--background-default); 
+    position: sticky;
+    top: 0;
+    z-index: 100
+    
+}
+
+
+.nav-bar a{
+
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+
+.socials img{
+    height: 48px;
+}
+
+.avatar img{
+    height: 230px;
+    border-radius: 50%;
+}
+
+.hero{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    height: 40rem;
+    margin-left: 13%;
+    gap: 2rem;
+
+
+
+
+}
+
+
+.hero-text h1{
+
+    font-size: 100px;
+
+    
+}
+.hero-text p{
+    font-size: 32px;
+}
+
+
+
+.expertise{
+
+}
+
+.expertise .logo{
+    height: 92px;
+    
+}
