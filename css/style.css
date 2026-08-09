@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
@@ -22,17 +23,22 @@
     background-color: var(--background-default); 
     position: sticky;
     top: 0;
-    z-index: 100
+    z-index: 100;
+
+    box-shadow: 10px rgb(148, 14, 14);
     
 }
 
 
 .nav-bar a{
 
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.2rem;
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
+
+
+
 
 }
 
@@ -74,9 +80,29 @@
 
 .expertise{
 
+    color: whitesmoke;
+    background-color: var(--background-default);
+    height: 40rem;
+    padding: 5rem;
+
+
 }
 
 .expertise .logo{
-    height: 92px;
+    height: 4rem;
     
 }
+
+.expertise .details{
+
+    display: flex;
+    gap: 5rem;
+    align-items: start;
+    justify-content: start;
+    
+    
+}
+
+
+
+ 
