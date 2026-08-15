@@ -38,8 +38,6 @@
     color: white;
 
 
-
-
 }
 
 
@@ -53,16 +51,22 @@
 }
 
 .hero{
+
+    background-image: var(--img-background);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.hero-details{
     padding: 2rem;
     display: flex;
     align-items: center;
     height: 40rem;
-    margin-left: 13%;
     gap: 2rem;
-
-
-
-
+    margin-left: 13%;
+    color: #fff;
 }
 
 
@@ -82,7 +86,7 @@
 
     color: whitesmoke;
     background-color: var(--background-default);
-    height: 40rem;
+    height: 30rem;
     padding: 5rem;
 
 
@@ -94,15 +98,20 @@
 }
 
 .expertise .details{
-
     display: flex;
-    gap: 5rem;
-    align-items: start;
-    justify-content: start;
+    margin-top: 3rem;
+    justify-content: space-evenly;
     
-    
+}
+
+.expertise .details .description{
+    margin-top: 1.5rem;
 }
 
 
 
- 
+ .expertise .details .description p{
+    font-size: 22px;
+    margin-top: 0.50rem;
+}
+
