@@ -183,17 +183,18 @@
 .row{
     gap: 10px;
     display: flex;
+
 }
 
 .column{
-    width: 30rem;
+    width: 100%;
     display: grid;
 }
 
 
 
 form{
-    margin: 0 auto;
+
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -209,18 +210,25 @@ main{
 
 .message{
     display: grid;
+    margin-top: 1rem;
     
 }
 
 
 input{
     height: 2.5rem;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
 
 }
 
 textarea{
     height: 17rem;
-    width: 60.2rem;
+    width: 70rem;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
 }
 
 
@@ -233,3 +241,13 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+.contacts{
+    
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    margin-left: 100%;
+}
+
