@@ -61,6 +61,7 @@
     background-image: var(--img-background);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 
 
 }
@@ -88,13 +89,18 @@
     font-size: 32px;
 }
 
+.hero-info{
+    display: grid;
+    
+}
+
 
 
 .expertise{
 
     color: whitesmoke;
     background-color: var(--background-default);
-    height: 25rem;
+    height: auto;
     padding: 5rem;
 
 }
@@ -242,9 +248,7 @@ footer{
     justify-content: center;
 }
 
-.contacts{
-    
-}
+
 .btn{
     height: 2rem;
     width: 5rem;
@@ -257,9 +261,26 @@ footer{
         display: none;
     }
     .hero-details{
+        height: 37rem;
         display: grid;
         margin-left: 0%;
 
+    }
+    .socials{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .expertise{
+                margin-left: 0%;
+    }
+    .expertise .details{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+   
+
+        
     }
     .hero-text h1{
 
@@ -274,16 +295,28 @@ footer{
     .nav-bar a{
         display: flex;
     }
-    
+
     .hero-details{
+        padding: 2rem;
         display: flex;
+        align-items: center;
+        height: 42rem;
+        gap: 2rem;
         margin-left: 13%;
 
     }
+
     .hero-text h1{
 
         font-size: 100px;
 
+    
+    }
+ 
+    .expertise .details{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-evenly;
     
     }
     
