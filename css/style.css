@@ -251,3 +251,40 @@ footer{
     margin-left: 100%;
 }
 
+
+@media(min-width:320px){
+    .nav-bar a{
+        display: none;
+    }
+    .hero-details{
+        display: grid;
+        margin-left: 0%;
+
+    }
+    .hero-text h1{
+
+        font-size: 50px;
+
+    
+    }
+
+}
+
+@media(min-width:1024px){
+    .nav-bar a{
+        display: flex;
+    }
+    
+    .hero-details{
+        display: flex;
+        margin-left: 13%;
+
+    }
+    .hero-text h1{
+
+        font-size: 100px;
+
+    
+    }
+    
+}
