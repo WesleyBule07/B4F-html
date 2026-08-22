@@ -278,12 +278,13 @@ footer{
         justify-content: start;
     }
 
-    
+
 
 
     .expertise .details{
         align-items: center;
         display: grid;
+        gap: 40px;
         grid-template-columns: 1fr;
         
     }
@@ -324,6 +325,9 @@ footer{
         gap: 2rem;
         margin-left: 13%;
 
+    }
+    form{
+        display: flex;
     }
 
     .projects{
