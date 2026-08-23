@@ -152,7 +152,7 @@
 }
 
 .portfolio img{
-    height: 330px;
+    height: 300px;
     
 }
 
@@ -162,7 +162,7 @@
     display: flex;
     align-items:center ;
     justify-content: space-evenly;
-    height: 8rem;
+    
     
 }
 
@@ -215,6 +215,7 @@ form{
 
 main{
     display: grid;
+    
 
 }
 
