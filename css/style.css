@@ -213,6 +213,7 @@ form{
 
 main{
     display: grid;
+
 }
 
 .message{
@@ -288,17 +289,17 @@ footer{
         grid-template-columns: 1fr;
         
     }
+    .portfolio{
+        height: 55rem;
+    }
     .projects{
-        grid-template-columns: 1fr;
-       height: fit-content; 
+        grid-template-columns: 1fr; 
         display: grid;
-        grid-area: auto;
+
 
     
     }
-    .project img{
-        max-width: 80%;
-    }
+
     form{
         display: grid;
         grid-template-columns: 1fr;
@@ -335,6 +336,9 @@ footer{
         display: flex;
 
     
+    }
+    .portfolio{
+        height: 25rem;
     }
     .hero-text h1{
 
