@@ -14,7 +14,7 @@
 
 
 .nav-bar {
-
+    width: 100%;
     display: flex;
     height: 4.5rem;
     align-items: center;
@@ -144,7 +144,7 @@
 
 
 .portfolio{
-
+    display: grid;
     height: 25rem;
     padding: 5rem;
     color: #fff;
@@ -174,7 +174,9 @@
     margin-top: 1rem;
 }
 
-
+.contacts{
+    width: 80%;
+}
 
 .contact{
     background-color: var(--background-default);
@@ -304,6 +306,11 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    textarea{
+        width: 90%;
+    }
+
     .hero-text h1{
 
         font-size: 50px;
@@ -337,6 +344,11 @@ footer{
 
     
     }
+    textarea{
+        width: 70rem;
+    }
+
+
     .portfolio{
         height: 25rem;
     }
