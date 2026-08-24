@@ -1,0 +1,63 @@
+/*
+=====================================
+    0. Resets
+=====================================
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+=====================================
+    1. Variáveis
+=====================================
+*/
+
+:root {
+  /* Tipografia */
+
+  --h1-lg: 48px;
+  --h1-sm: 32px;
+
+  --h2-lg: 36px;
+  --h2-sm: 24px;
+
+  --h3-lg: 28px;
+  --h3-sm: 20px;
+
+  --body: 10px;
+  --microtext: 12px;
+
+  /* Cores */
+
+  --primary: #023e8a;
+  --foreground: #000000;
+  --background-default: #ffffff;
+  --background-surface: #faedcd;
+  --background-accent: #fefae0;
+}
+
+/*
+======================================
+    2. Header
+======================================
+*/
+
+/*
+    TODO: Estilização do header aqui
+*/
+
+/*
+======================================
+    3. Footer
+======================================
+*/
+
+/*
+    TODO: Estilização do footer aqui
+*/
