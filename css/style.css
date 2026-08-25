@@ -34,7 +34,7 @@
     height: 42rem;
     gap: 2rem;
     margin-left: 13%;
-    color: #fff;
+    color: var(--foreground)
 
 }
 
@@ -67,7 +67,7 @@ h3{
 
 .expertise{
 
-    color: whitesmoke;
+    color:var(--foreground);
     background-color: var(--background-default);
     height: auto;
     width: auto;
@@ -99,7 +99,7 @@ h3{
 
 
 .history{
-    color: whitesmoke;
+    color: var(--foreground);
     background-color: var(--background-default);
     height: 30rem;
     padding: 5rem;
@@ -156,7 +156,7 @@ h3{
 }
 
 .contact h2{
-    color: #fff;
+    color:var(--foreground);
 }
 
 .row{
@@ -174,7 +174,7 @@ h3{
 
 form{
 
-    color: #fff;
+    color: var(--foreground);
     display: flex;
     flex-direction: column;
     align-items: center;
