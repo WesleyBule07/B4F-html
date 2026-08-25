@@ -1,46 +1,12 @@
-:root{
-
-    --background-default: #10131C;
-    --img-background: url('../imgs/blk6.jpg');
-
-}
-
 
 *{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-
-.nav-bar {
-    width: 100%;
-    display: flex;
-    height: 4.5rem;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 0.70rem;
-    background-color: var(--background-default); 
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    border-bottom: 2px solid black;
-
+    
 }
 
 
 
-.nav-bar a{
-    margin-right: 0.2rem;
-    padding: 10px ;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: white;
-
-    &:hover{
-        background-color: rgba(255,255,255, 0.1);
-    }
-}
 
 .socials img{
     height: 48px;
@@ -75,14 +41,14 @@
 
 .hero-text h1{
 
-    font-size: 100px;
+    font-size: var(--h1-lg);
 
     
 }
 
 
 .hero-text p{
-    font-size: 32px;
+    font-size: var(--body);
 }
 
 .hero-info{
@@ -115,14 +81,12 @@
     
 }
 
-.expertise .details .description{
-    margin-top: 1.5rem;
-}
 
 
 
  .expertise .details .description p{
-    font-size: 22px;
+    margin-top: 1.5rem;
+    font-size: var(--secondary);
     margin-top: 0.50rem;
 }
 
@@ -314,7 +278,7 @@ footer{
 
     .hero-text h1{
 
-        font-size: 50px;
+        font-size: var(--h1-sm);
 
     
     }
@@ -355,7 +319,7 @@ footer{
     }
     .hero-text h1{
 
-        font-size: 100px;
+        font-size: var(--h1-lg);
 
     
     }

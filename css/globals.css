@@ -10,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 /*
@@ -21,25 +22,30 @@
 :root {
   /* Tipografia */
 
-  --h1-lg: 48px;
-  --h1-sm: 32px;
+  --h1-lg: 100px;
+  --h1-sm: 50px;
 
   --h2-lg: 36px;
   --h2-sm: 24px;
 
-  --h3-lg: 28px;
+  --h3-lg: 48px;
   --h3-sm: 20px;
 
-  --body: 10px;
+  --body: 32px;
+  --secondary :22px;
+
   --microtext: 12px;
 
   /* Cores */
 
   --primary: #023e8a;
   --foreground: #000000;
-  --background-default: #ffffff;
-  --background-surface: #faedcd;
-  --background-accent: #fefae0;
+  --background-default: #10131C;
+
+
+
+  --img-background: url('../imgs/blk6.jpg');
+
 }
 
 /*
@@ -48,9 +54,34 @@
 ======================================
 */
 
-/*
-    TODO: Estilização do header aqui
-*/
+.nav-bar {
+    width: 100%;
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.70rem;
+    background-color: var(--background-default); 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid black;
+
+}
+
+
+
+.nav-bar a{
+    margin-right: 0.2rem;
+    padding: 10px ;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+
+    &:hover{
+        background-color: rgba(255,255,255, 0.1);
+    }
+}
 
 /*
 ======================================
