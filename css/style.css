@@ -46,6 +46,13 @@
     
 }
 
+h2{
+    font-size: var(--h2-lg);
+}
+
+h3{
+    font-size: var(--h3-lg);
+}
 
 .hero-text p{
     font-size: var(--body);
@@ -222,7 +229,7 @@ footer{
     border-radius: 5px;
     height: 2.5rem;
     width: 10rem;
-    font-size: 20px;
+    font-size: var(--microtext);
     margin-top: 16px;
     border: none;
 }
@@ -281,6 +288,13 @@ footer{
         font-size: var(--h1-sm);
 
     
+    }
+    h2{
+    font-size: var(--h2-sm);
+}
+
+    h3{
+    font-size: var(--h3-sm);
     }
 
 }
