@@ -23,7 +23,7 @@
     background-image: var(--img-background);
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
+    width: 100%;
 
 }
 
@@ -348,5 +348,20 @@ footer{
         justify-content: space-evenly;
     
     }
+
+        .hero-text h1{
+
+        font-size: var(--h1-lg);
+
+    
+    }
+    h2{
+    font-size: var(--h2-lg);
+}
+
+    h3{
+    font-size: var(--h3-lg);
+    }
+
     
 }
