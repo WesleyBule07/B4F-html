@@ -55,7 +55,7 @@
 */
 
 .nav-bar {
-    width: 100%;
+    width: 100vw;
     display: flex;
     height: 4.5rem;
     align-items: center;

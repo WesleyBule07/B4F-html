@@ -107,9 +107,15 @@ h3{
 }
 
 .career{
-
+    display: flex;
     margin-top: 3rem;
 }
+ .card{
+    color: black;
+    background-color: #fff;
+    border-radius: 6px;
+    width: 450px;
+ }
 
 
 
@@ -123,16 +129,18 @@ h3{
 }
 
 .portfolio img{
-    height: 300px;
+    height: 400px;
+    border-radius: 10px;
     
 }
 
 
 .projects{
-    margin-top: 3rem;
+
     display: flex;
     align-items:center ;
     justify-content: space-evenly;
+    
     
     
 }
@@ -186,6 +194,7 @@ form{
 
 main{
     display: grid;
+    width: auto;
     
 
 }
@@ -236,7 +245,8 @@ footer{
 
 
 @media(min-width:320px){
-    
+
+
     .nav-bar a              {
         display: none;
     }
@@ -252,10 +262,16 @@ footer{
         align-items: start;
         justify-content: start;
     }
+    
+    .career{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
 
-
-
+    .expertise , .history , .portfolio, .contact{
+        padding: 30px;
+    }
     .expertise .details{
         align-items: center;
         display: grid;
@@ -263,9 +279,18 @@ footer{
         grid-template-columns: 1fr;
         
     }
+
     .portfolio{
-        height: 55rem;
+        height: 60rem;
     }
+    .portfolio img{
+        height: 250px;
+    }
+     .card{
+
+        width: 300px;
+     }
+
     .projects{
         grid-template-columns: 1fr; 
         display: grid;
@@ -329,7 +354,10 @@ footer{
 
 
     .portfolio{
-        height: 25rem;
+        height: 40rem;
+    }
+    .portfolio img{
+        height: 400px;
     }
     .hero-text h1{
 
