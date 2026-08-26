@@ -10,6 +10,7 @@
 
 .socials img{
     height: 48px;
+    background-color: rgba(rgb(255, 255, 255), rgb(226, 226, 226), rgb(189, 189, 189), alpha);
 
 }
 
@@ -108,6 +109,10 @@ h3{
 
 .career{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
     margin-top: 3rem;
 }
  .card{
@@ -115,6 +120,8 @@ h3{
     background-color: #fff;
     border-radius: 6px;
     width: 450px;
+    height: 200px;
+    padding: 30px;;
  }
 
 
@@ -287,9 +294,11 @@ footer{
         height: 250px;
     }
      .card{
-
-        width: 300px;
+        align-items: center;
+        width: 400px;
+        gap: 30px;
      }
+
 
     .projects{
         grid-template-columns: 1fr; 
@@ -337,6 +346,12 @@ footer{
         gap: 2rem;
         margin-left: 13%;
 
+    }
+    .career{
+        display: flex;
+    }
+    .card{
+        width: 450px;
     }
     form{
         display: flex;
