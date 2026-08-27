@@ -1,24 +1,31 @@
 
-*{
-    margin: 0;
-    padding: 0;
+main{
+    display: grid;
+    width: auto;
+
+}
+
+
+
+
+
+/* Logo das redes sociais  */
+.socials img{
+    height: 48px;
+    
     
 }
 
+/* Hero Section*/
 
-
-
-.socials img{
-    height: 48px;
-    background-color: rgba(rgb(255, 255, 255), rgb(226, 226, 226), rgb(189, 189, 189), alpha);
-
-}
-
+/* Foto de Perfil */
 .avatar img{
     height: 230px;
     border-radius: 50%;
 }
 
+
+/*Background da hero section */
 .hero{
     
     background-image: var(--img-background);
@@ -28,6 +35,8 @@
 
 }
 
+
+/* informacoes da hero section: Avatar, Logos, Nome  */
 .hero-details{
     padding: 2rem;
     display: flex;
@@ -40,6 +49,8 @@
 }
 
 
+
+/* H1 da hero section */
 .hero-text h1{
 
     font-size: var(--h1-lg);
@@ -47,17 +58,23 @@
     
 }
 
+
+/* Elementos H2 da pagina */
 h2{
     font-size: var(--h2-lg);
 }
 
+/* Elementos H3 da pagina */
 h3{
     font-size: var(--h3-lg);
 }
 
+
+/* Estilização do p da hero section */
 .hero-text p{
     font-size: var(--body);
 }
+
 
 .hero-info{
     display: grid;
@@ -65,6 +82,8 @@ h3{
 }
 
 
+
+/* Expertise Section */
 
 .expertise{
 
@@ -90,14 +109,15 @@ h3{
 }
 
 
-
-
  .expertise .details .description p{
     margin-top: 1.5rem;
     font-size: var(--secondary);
     margin-top: 0.50rem;
 }
 
+
+
+/* Career History Section */
 
 .history{
     color: var(--foreground);
@@ -112,7 +132,7 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 3rem;
 }
  .card{
@@ -126,6 +146,7 @@ h3{
 
 
 
+ /* Personal Projects Section */
 
 .portfolio{
     display: grid;
@@ -145,7 +166,6 @@ h3{
 .projects{
 
     display: flex;
-    align-items:center ;
     justify-content: space-evenly;
     
     
@@ -160,6 +180,8 @@ h3{
     margin-top: 1rem;
 }
 
+
+/* Contacts Section */
 .contacts{
     width: 80%;
 }
@@ -199,12 +221,6 @@ form{
 }
 
 
-main{
-    display: grid;
-    width: auto;
-    
-
-}
 
 .message{
     display: grid;
@@ -231,6 +247,7 @@ textarea{
 
 
 footer{
+    
     background-color: var(--background-default);
 }
 
@@ -241,7 +258,7 @@ footer{
 }
 
 
-.btn{
+button{
     border-radius: 5px;
     height: 2.5rem;
     width: 10rem;
@@ -250,6 +267,11 @@ footer{
     border: none;
 }
 
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content:  flex-end;
+}
 
 @media(min-width:320px){
 
